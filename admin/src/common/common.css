@@ -1,0 +1,49 @@
+body{
+    font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;
+}
+body,html{
+	height: 100%;
+}
+input[type=button]{
+    -webkit-appearance:none;
+    outline:none
+}
+a, input{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #c8cbd2;
+    font-size: 14px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #c8cbd2;
+    font-size: 14px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #c8cbd2;
+    font-size: 14px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #c8cbd2;
+    font-size: 14px;
+}
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,li, dl, dt, dd, form, a, fieldset, input, th, td{
+	margin: 0; padding: 0; border: 0; outline: none;
+	}
+ul, ol{
+	list-style: none;
+	}
+a{
+	text-decoration: none;
+	}
+html{
+	/*font-family: Arial,"Microsoft YaHei";*/
+	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	}
+	
+/*::-webkit-scrollbar{
+	width:0px;
+	}
+	i{
+		font-style: normal;
+	}*/
